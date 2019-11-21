@@ -1,7 +1,7 @@
 var http = require('http');
 http.createServer(function (req, res)
 {
-    res.writehead(200, {'content-Type': 'application/json; charset=utf-8'});
+    res.writeHead(200, {'Content-Type': 'application/json; charset=utf-8'});
 
     res.end('Hola mundo Node JS Rep GIT - Rivera Sánchez Ricardo Isaac \n');
 
