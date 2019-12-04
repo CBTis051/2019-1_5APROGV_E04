@@ -1,4 +1,4 @@
-const Sequelize = require('Sequelize');
+const Sequelize = require('sequelize');
 
 //Conexion a la DB con Sequelize
 const sequelize = new Sequelize('proyecto', 'root', 'Acbtis51-', { 
